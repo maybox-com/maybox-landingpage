@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Nohemi';
+    src: url('../fonts/Nohemi Font/Nohemi-Medium-BF6438cc57ddecd.woff') format('woff'),
+         url('../fonts/Nohemi Font/Nohemi-Regular-BF6438cc579d934.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+     font-family: 'Spline-Sans';
+     src: url('../fonts/Spline_Sans/static/SplineSans-Regular.ttf') format('ttf'),
+          url('../fonts/Spline_Sans/static/SplineSans-Medium.ttf') format('ttf');
+     font-weight: normal;
+     font-style: normal;
+   }
+  
