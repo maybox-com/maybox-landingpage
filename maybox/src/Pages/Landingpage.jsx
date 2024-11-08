@@ -44,7 +44,7 @@ const Landingpage = () => {
           </div>
 
           {/* Image Container */}
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 relative md:right-20">
             <div className="aspect-w-16 aspect-h-12 rounded-lg overflow-hidden relative">
               <div className="absolute top-4 left-4 md:top-6 md:left-44 z-10 text-white">
                 <p className="text-3xl tracking-wider md:tracking-wider md:text-4xl font-bold font-custom">Maya <br /> Daniels</p>
@@ -126,7 +126,7 @@ const Landingpage = () => {
       
       <div className="flex flex-col  md:flex-row md:space-x-4 ">
       <div className="grid grid-cols-1 md:grid-cols-2 w-full">
-      <div className="bg-[#80F651] green md:rounded-l-xl rounded-xl flex justify-center items-center  h-96">
+      <div className="bg-[#80F651] green md:rounded-l-xl rounded-xl flex justify-center items-center  h-64">
       <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M39.8107 19.03C39.8107 14.2059 41.7271 9.57937 45.1383 6.16822C48.5494 2.75706 53.1759 0.840698 58 0.840698C62.8241 0.840698 67.4506 2.75706 70.8618 6.16822C74.2729 9.57937 76.1893 14.2059 76.1893 19.03C76.1893 23.8541 74.2729 28.4806 70.8618 31.8918C67.4506 35.3029 62.8241 37.2193 58 37.2193C53.1759 37.2193 48.5494 35.3029 45.1383 31.8918C41.7271 28.4806 39.8107 23.8541 39.8107 19.03ZM22.2186 48.8243C25.9212 45.3093 30.8318 43.3497 35.9372 43.3497C41.0425 43.3497 45.9531 45.3093 49.6557 48.8243L49.7343 48.9028L58 57.1686L66.2736 48.9028L66.3522 48.8243C70.054 45.3139 74.9613 43.3571 80.0629 43.3571C85.1645 43.3571 90.0718 45.3139 93.7736 48.8243C95.6103 50.5693 97.0733 52.6694 98.0738 54.9971C99.0742 57.3247 99.5912 59.8314 99.5934 62.3649C99.5956 64.8985 99.0829 67.406 98.0866 69.7354C97.0902 72.0648 95.6309 74.1674 93.7972 75.9157L60.7343 108.051C60.001 108.764 59.0187 109.163 57.9961 109.163C56.9735 109.163 55.9912 108.764 55.2579 108.051L22.2029 75.9157C20.3699 74.1681 18.911 72.0664 17.9147 69.738C16.9184 67.4096 16.4054 64.9031 16.4069 62.3705C16.4083 59.838 16.9242 57.3321 17.9232 55.0049C18.9223 52.6776 20.3836 50.5698 22.2186 48.8243Z" fill="#4ACB16"/>
 </svg>
@@ -196,7 +196,7 @@ const Landingpage = () => {
         <section  className='md:mr-20 md:mt-20 mt-20 relative md:left-20'>
         <div className="container mx-auto p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div className="bg-white md:w-64  md:ml-20 rounded-2xl p-6 shadow-sm">
+        <div className="bg-white md:w-64  md:ml-20 rounded-2xl relative  p-6 shadow-sm">
           <h2 className="font-custom text-2xl text-[#1E1E1E] font-bold mb-4">
             What are the membership <br /> perks?
           </h2>
