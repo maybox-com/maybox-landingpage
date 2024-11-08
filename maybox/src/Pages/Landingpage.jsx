@@ -63,7 +63,7 @@ const Landingpage = () => {
 
         <div className='pt-40'>
             <p className='text-[#6C6C6C] text-sm font-custom2'>Did you know?</p>
-            <p className='pt-2 font-semibold text-1xl w-80 md:w-full md:text-2xl'>Consumers are increasingly demanding <span className='text-[#FBA013]'>eco-friendly and sustainable beauty <br /> products.</span> Technology is playing a 
+            <p className='pt-2 font-meduim font-custom2 tracking-tight text-1xl w-80 md:w-full md:text-2xl'>Consumers are increasingly demanding <span className='text-[#FBA013]'>eco-friendly and sustainable beauty <br /> products.</span> Technology is playing a 
               crucial role in developing innovative, <br /> sustainable 
                formulations and packaging solutions.</p>
         </div>
